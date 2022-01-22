@@ -1,5 +1,4 @@
 # News Feed
-# online News Feed 
 this simple demo to VIPER
 
 # Architecture
