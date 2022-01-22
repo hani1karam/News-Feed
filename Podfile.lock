@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (5.0.5)
+  - CRNotifications (1.1.7)
+  - Kingfisher (7.1.2)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.4)
+  - CRNotifications (from `https://github.com/dkcas11/CRNotifications.git`, branch `swift4-2`)
+  - Kingfisher
+  - NVActivityIndicatorView (~> 4.8.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - NVActivityIndicatorView
+
+EXTERNAL SOURCES:
+  CRNotifications:
+    :branch: swift4-2
+    :git: https://github.com/dkcas11/CRNotifications.git
+
+CHECKOUT OPTIONS:
+  CRNotifications:
+    :commit: e6ce23087699951abc4dc90c74a5aeef85a75b63
+    :git: https://github.com/dkcas11/CRNotifications.git
+
+SPEC CHECKSUMS:
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  CRNotifications: 4290144a0aa0ff36e227e3c41bd6f21977d9d161
+  Kingfisher: 44ed6a8504763f27bab46163adfac83f5deb240c
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+
+PODFILE CHECKSUM: ac0f77b51e8ba91a4a599a0f26243c6971c4076b
+
+COCOAPODS: 1.11.2

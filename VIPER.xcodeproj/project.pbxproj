@@ -3,27 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		589303815F18910D3F1A5571 /* Pods_VIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4E41C6741DFEAA69342EDE /* Pods_VIPER.framework */; };
 		D7E03887279B1315001DF78E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E03886279B1315001DF78E /* AppDelegate.swift */; };
-		D7E03889279B1315001DF78E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E03888279B1315001DF78E /* SceneDelegate.swift */; };
 		D7E0388B279B1315001DF78E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0388A279B1315001DF78E /* ViewController.swift */; };
 		D7E0388E279B1315001DF78E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E0388C279B1315001DF78E /* Main.storyboard */; };
 		D7E03890279B1318001DF78E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E0388F279B1318001DF78E /* Assets.xcassets */; };
 		D7E03893279B1318001DF78E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E03891279B1318001DF78E /* LaunchScreen.storyboard */; };
+		D7E038B1279B1EBB001DF78E /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E038B0279B1EBB001DF78E /* NewsModel.swift */; };
+		D7E038BE279B2210001DF78E /* FeedsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E038BD279B2210001DF78E /* FeedsTableViewCell.swift */; };
+		D7E038C2279B247F001DF78E /* FeedsPresnter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E038C1279B247F001DF78E /* FeedsPresnter.swift */; };
+		D7E038C5279B24A6001DF78E /* FeedsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E038C4279B24A6001DF78E /* FeedsInteractor.swift */; };
+		D7E038C8279B24C3001DF78E /* FeedsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E038C7279B24C3001DF78E /* FeedsRouter.swift */; };
+		D7E038CB279B25B9001DF78E /* FeedsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E038CA279B25B9001DF78E /* FeedsProtocol.swift */; };
+		D7E038CF279B327F001DF78E /* FeedsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E038CE279B327F001DF78E /* FeedsWorker.swift */; };
+		D7E038D3279B33FA001DF78E /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E038D2279B33FA001DF78E /* RequestProtocol.swift */; };
+		D7E038D6279B3417001DF78E /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E038D5279B3417001DF78E /* SessionManager.swift */; };
+		D7E038E2279B42F3001DF78E /* DataProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E038E1279B42F3001DF78E /* DataProviderProtocol.swift */; };
+		D7E038EA279B61ED001DF78E /* Extenstion + UIVIEW.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E038E9279B61EC001DF78E /* Extenstion + UIVIEW.swift */; };
+		D7E038F8279B6806001DF78E /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E038F7279B6805001DF78E /* BaseView.swift */; };
+		D7E038FB279B6841001DF78E /* hexStringToUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E038FA279B6841001DF78E /* hexStringToUIColor.swift */; };
+		D7E0390C279B6FAE001DF78E /* UIWindowExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0390B279B6FAE001DF78E /* UIWindowExtenstion.swift */; };
+		D7E0390F279B6FC9001DF78E /* storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0390E279B6FC9001DF78E /* storyboards.swift */; };
+		D7E03917279B70B8001DF78E /* NoNetwork.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E03916279B70B8001DF78E /* NoNetwork.storyboard */; };
+		D7E0391A279B70BB001DF78E /* NoNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E03919279B70BB001DF78E /* NoNetworkViewController.swift */; };
+		D7E0391E279B7116001DF78E /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0391D279B7116001DF78E /* UserManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D3F832C41978BB6B71630EB /* Pods-VIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER.debug.xcconfig"; path = "Target Support Files/Pods-VIPER/Pods-VIPER.debug.xcconfig"; sourceTree = "<group>"; };
+		2F4E41C6741DFEAA69342EDE /* Pods_VIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D96EDEB0E4F392ADDA3D6FD /* Pods-VIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER.release.xcconfig"; path = "Target Support Files/Pods-VIPER/Pods-VIPER.release.xcconfig"; sourceTree = "<group>"; };
 		D7E03883279B1315001DF78E /* VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E03886279B1315001DF78E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D7E03888279B1315001DF78E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D7E0388A279B1315001DF78E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D7E0388D279B1315001DF78E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7E0388F279B1318001DF78E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7E03892279B1318001DF78E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7E03894279B1318001DF78E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E038B0279B1EBB001DF78E /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		D7E038BD279B2210001DF78E /* FeedsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsTableViewCell.swift; sourceTree = "<group>"; };
+		D7E038C1279B247F001DF78E /* FeedsPresnter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsPresnter.swift; sourceTree = "<group>"; };
+		D7E038C4279B24A6001DF78E /* FeedsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsInteractor.swift; sourceTree = "<group>"; };
+		D7E038C7279B24C3001DF78E /* FeedsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsRouter.swift; sourceTree = "<group>"; };
+		D7E038CA279B25B9001DF78E /* FeedsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsProtocol.swift; sourceTree = "<group>"; };
+		D7E038CE279B327F001DF78E /* FeedsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsWorker.swift; sourceTree = "<group>"; };
+		D7E038D2279B33FA001DF78E /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
+		D7E038D5279B3417001DF78E /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		D7E038E1279B42F3001DF78E /* DataProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProviderProtocol.swift; sourceTree = "<group>"; };
+		D7E038E9279B61EC001DF78E /* Extenstion + UIVIEW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extenstion + UIVIEW.swift"; sourceTree = "<group>"; };
+		D7E038F7279B6805001DF78E /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		D7E038FA279B6841001DF78E /* hexStringToUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hexStringToUIColor.swift; sourceTree = "<group>"; };
+		D7E0390B279B6FAE001DF78E /* UIWindowExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindowExtenstion.swift; sourceTree = "<group>"; };
+		D7E0390E279B6FC9001DF78E /* storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storyboards.swift; sourceTree = "<group>"; };
+		D7E03916279B70B8001DF78E /* NoNetwork.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = NoNetwork.storyboard; path = ../../../Hajaty/Hajaty/NoNetwork/NoNetwork.storyboard; sourceTree = "<group>"; };
+		D7E03919279B70BB001DF78E /* NoNetworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoNetworkViewController.swift; path = ../../../Hajaty/Hajaty/NoNetwork/NoNetworkViewController.swift; sourceTree = "<group>"; };
+		D7E0391D279B7116001DF78E /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +69,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				589303815F18910D3F1A5571 /* Pods_VIPER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47590BBFBFD4F58BEC32A1A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D3F832C41978BB6B71630EB /* Pods-VIPER.debug.xcconfig */,
+				5D96EDEB0E4F392ADDA3D6FD /* Pods-VIPER.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CDF6C24C988E1374943C8919 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F4E41C6741DFEAA69342EDE /* Pods_VIPER.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D7E0387A279B1314001DF78E = {
 			isa = PBXGroup;
 			children = (
 				D7E03885279B1315001DF78E /* VIPER */,
 				D7E03884279B1315001DF78E /* Products */,
+				47590BBFBFD4F58BEC32A1A8 /* Pods */,
+				CDF6C24C988E1374943C8919 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +114,120 @@
 		D7E03885279B1315001DF78E /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
-				D7E03886279B1315001DF78E /* AppDelegate.swift */,
-				D7E03888279B1315001DF78E /* SceneDelegate.swift */,
-				D7E0388A279B1315001DF78E /* ViewController.swift */,
-				D7E0388C279B1315001DF78E /* Main.storyboard */,
-				D7E0388F279B1318001DF78E /* Assets.xcassets */,
-				D7E03891279B1318001DF78E /* LaunchScreen.storyboard */,
-				D7E03894279B1318001DF78E /* Info.plist */,
+				D7E03915279B70B1001DF78E /* Network */,
+				D7E038CD279B325E001DF78E /* Workers */,
+				D7E038AF279B1EAE001DF78E /* Model */,
+				D7E038A2279B1416001DF78E /* ApiService */,
+				D7E038A1279B13F3001DF78E /* Core */,
+				D7E038B7279B2030001DF78E /* Scenes */,
+				D7E038B4279B1FFA001DF78E /* Resources */,
+				D7E038B5279B2003001DF78E /* Configuration */,
+				D7E038EC279B61F2001DF78E /* Custome */,
 			);
 			path = VIPER;
+			sourceTree = "<group>";
+		};
+		D7E038A1279B13F3001DF78E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D7E03886279B1315001DF78E /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D7E038A2279B1416001DF78E /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				D7E038D2279B33FA001DF78E /* RequestProtocol.swift */,
+				D7E038D5279B3417001DF78E /* SessionManager.swift */,
+				D7E038E1279B42F3001DF78E /* DataProviderProtocol.swift */,
+			);
+			path = ApiService;
+			sourceTree = "<group>";
+		};
+		D7E038AF279B1EAE001DF78E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7E038B0279B1EBB001DF78E /* NewsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D7E038B4279B1FFA001DF78E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7E0388F279B1318001DF78E /* Assets.xcassets */,
+				D7E03891279B1318001DF78E /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D7E038B5279B2003001DF78E /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D7E03894279B1318001DF78E /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		D7E038B7279B2030001DF78E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D7E038B8279B2053001DF78E /* Feeds */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D7E038B8279B2053001DF78E /* Feeds */ = {
+			isa = PBXGroup;
+			children = (
+				D7E038BC279B21F4001DF78E /* TableViewCell */,
+				D7E0388A279B1315001DF78E /* ViewController.swift */,
+				D7E0388C279B1315001DF78E /* Main.storyboard */,
+				D7E038C1279B247F001DF78E /* FeedsPresnter.swift */,
+				D7E038C4279B24A6001DF78E /* FeedsInteractor.swift */,
+				D7E038C7279B24C3001DF78E /* FeedsRouter.swift */,
+				D7E038CA279B25B9001DF78E /* FeedsProtocol.swift */,
+			);
+			path = Feeds;
+			sourceTree = "<group>";
+		};
+		D7E038BC279B21F4001DF78E /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D7E038BD279B2210001DF78E /* FeedsTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		D7E038CD279B325E001DF78E /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				D7E038CE279B327F001DF78E /* FeedsWorker.swift */,
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		D7E038EC279B61F2001DF78E /* Custome */ = {
+			isa = PBXGroup;
+			children = (
+				D7E038E9279B61EC001DF78E /* Extenstion + UIVIEW.swift */,
+				D7E038F7279B6805001DF78E /* BaseView.swift */,
+				D7E0390B279B6FAE001DF78E /* UIWindowExtenstion.swift */,
+				D7E038FA279B6841001DF78E /* hexStringToUIColor.swift */,
+				D7E0390E279B6FC9001DF78E /* storyboards.swift */,
+				D7E0391D279B7116001DF78E /* UserManager.swift */,
+			);
+			path = Custome;
+			sourceTree = "<group>";
+		};
+		D7E03915279B70B1001DF78E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D7E03916279B70B8001DF78E /* NoNetwork.storyboard */,
+				D7E03919279B70BB001DF78E /* NoNetworkViewController.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7E03897279B1318001DF78E /* Build configuration list for PBXNativeTarget "VIPER" */;
 			buildPhases = (
+				82C082EB78EF4C9E97F029C0 /* [CP] Check Pods Manifest.lock */,
 				D7E0387F279B1315001DF78E /* Sources */,
 				D7E03880279B1315001DF78E /* Frameworks */,
 				D7E03881279B1315001DF78E /* Resources */,
+				6C3F77713A02BE9C6B4BA272 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7E03917279B70B8001DF78E /* NoNetwork.storyboard in Resources */,
 				D7E03893279B1318001DF78E /* LaunchScreen.storyboard in Resources */,
 				D7E03890279B1318001DF78E /* Assets.xcassets in Resources */,
 				D7E0388E279B1315001DF78E /* Main.storyboard in Resources */,
@@ -132,14 +298,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6C3F77713A02BE9C6B4BA272 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIPER/Pods-VIPER-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIPER/Pods-VIPER-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VIPER/Pods-VIPER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82C082EB78EF4C9E97F029C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIPER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D7E0387F279B1315001DF78E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7E0391A279B70BB001DF78E /* NoNetworkViewController.swift in Sources */,
+				D7E038C2279B247F001DF78E /* FeedsPresnter.swift in Sources */,
+				D7E0391E279B7116001DF78E /* UserManager.swift in Sources */,
+				D7E038D6279B3417001DF78E /* SessionManager.swift in Sources */,
+				D7E038CF279B327F001DF78E /* FeedsWorker.swift in Sources */,
+				D7E038B1279B1EBB001DF78E /* NewsModel.swift in Sources */,
 				D7E0388B279B1315001DF78E /* ViewController.swift in Sources */,
+				D7E038BE279B2210001DF78E /* FeedsTableViewCell.swift in Sources */,
+				D7E038C5279B24A6001DF78E /* FeedsInteractor.swift in Sources */,
+				D7E038C8279B24C3001DF78E /* FeedsRouter.swift in Sources */,
+				D7E038E2279B42F3001DF78E /* DataProviderProtocol.swift in Sources */,
 				D7E03887279B1315001DF78E /* AppDelegate.swift in Sources */,
-				D7E03889279B1315001DF78E /* SceneDelegate.swift in Sources */,
+				D7E0390C279B6FAE001DF78E /* UIWindowExtenstion.swift in Sources */,
+				D7E038D3279B33FA001DF78E /* RequestProtocol.swift in Sources */,
+				D7E038F8279B6806001DF78E /* BaseView.swift in Sources */,
+				D7E038EA279B61ED001DF78E /* Extenstion + UIVIEW.swift in Sources */,
+				D7E0390F279B6FC9001DF78E /* storyboards.swift in Sources */,
+				D7E038CB279B25B9001DF78E /* FeedsProtocol.swift in Sources */,
+				D7E038FB279B6841001DF78E /* hexStringToUIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +507,14 @@
 		};
 		D7E03898279B1318001DF78E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D3F832C41978BB6B71630EB /* Pods-VIPER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SB6MTB7YS3;
-				INFOPLIST_FILE = VIPER/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/VIPER/Configuration/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,18 +522,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hanykaram.VIPER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D7E03899279B1318001DF78E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D96EDEB0E4F392ADDA3D6FD /* Pods-VIPER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SB6MTB7YS3;
-				INFOPLIST_FILE = VIPER/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/VIPER/Configuration/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +543,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hanykaram.VIPER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
